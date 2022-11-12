@@ -9,12 +9,16 @@ import SwiftUI
 
 struct TabViewMain: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct TabViewMain_Previews: PreviewProvider {
-    static var previews: some View {
-        TabViewMain()
+        TabView{
+            ContentView().tabItem{
+                Label("Home", systemImage: "house.fill")
+            }
+            SegundaVista(texto: "Titulo 2").tabItem{
+                Label("Vista 2", systemImage: "plus")
+            }
+            TercerVista().tabItem{
+                Label("Camara", systemImage: "camera")
+            }
+        }
     }
 }

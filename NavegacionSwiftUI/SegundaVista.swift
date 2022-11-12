@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct SegundaVista: View {
+    var texto: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct SegundaVista_Previews: PreviewProvider {
-    static var previews: some View {
-        SegundaVista()
+        Text("Segunda Vista")
+            .navigationTitle(texto)
+        NavigationLink(destination: TercerVista()){
+            Text("Ir a tercer vista")
+        }
     }
 }

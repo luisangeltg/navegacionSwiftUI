@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct VentanaModal: View {
+    @Environment(\.presentationMode) var back
+    var texto: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color.orange.edgesIgnoringSafeArea(.all)
+            VStack{
+                Text("Ventana Modal").font(.title)
+                    .foregroundColor(.white)
+                    .bold()
+                Button("Cerrar"){
+                    back.wrappedValue.dismiss()
+                }
+            }
+        }
     }
 }
 
-struct VentanaModal_Previews: PreviewProvider {
-    static var previews: some View {
-        VentanaModal()
-    }
-}

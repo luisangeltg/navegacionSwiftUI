@@ -11,6 +11,10 @@
 		937BF8472920150B00252226 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BF8462920150B00252226 /* ContentView.swift */; };
 		937BF8492920150C00252226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937BF8482920150C00252226 /* Assets.xcassets */; };
 		937BF84C2920150C00252226 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937BF84B2920150C00252226 /* Preview Assets.xcassets */; };
+		937BF8532920226E00252226 /* VentanaModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BF8522920226E00252226 /* VentanaModal.swift */; };
+		937BF8552920266100252226 /* TercerVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BF8542920266100252226 /* TercerVista.swift */; };
+		937BF857292026B000252226 /* SegundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BF856292026B000252226 /* SegundaVista.swift */; };
+		937BF859292034AE00252226 /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BF858292034AE00252226 /* TabViewMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		937BF8462920150B00252226 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		937BF8482920150C00252226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937BF84B2920150C00252226 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		937BF8522920226E00252226 /* VentanaModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentanaModal.swift; sourceTree = "<group>"; };
+		937BF8542920266100252226 /* TercerVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerVista.swift; sourceTree = "<group>"; };
+		937BF856292026B000252226 /* SegundaVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaVista.swift; sourceTree = "<group>"; };
+		937BF858292034AE00252226 /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				937BF8462920150B00252226 /* ContentView.swift */,
 				937BF8482920150C00252226 /* Assets.xcassets */,
 				937BF84A2920150C00252226 /* Preview Content */,
+				937BF8522920226E00252226 /* VentanaModal.swift */,
+				937BF856292026B000252226 /* SegundaVista.swift */,
+				937BF8542920266100252226 /* TercerVista.swift */,
+				937BF858292034AE00252226 /* TabViewMain.swift */,
 			);
 			path = NavegacionSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937BF857292026B000252226 /* SegundaVista.swift in Sources */,
+				937BF8552920266100252226 /* TercerVista.swift in Sources */,
 				937BF8472920150B00252226 /* ContentView.swift in Sources */,
+				937BF8532920226E00252226 /* VentanaModal.swift in Sources */,
 				937BF8452920150B00252226 /* NavegacionSwiftUIApp.swift in Sources */,
+				937BF859292034AE00252226 /* TabViewMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
